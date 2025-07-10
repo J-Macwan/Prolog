@@ -1,0 +1,25 @@
+1)cat /etc/os-release
+
+o/p:NAME="Ubuntu"
+VERSION="20.04.6 LTS (Focal Fossa)"
+
+
+2)sudo apt update
+sudo apt upgrade -y
+
+
+3)sudo apt install swi-prolog -y
+4)swipl --version
+o/p:SWI-Prolog version 8.x.x
+
+
+5)Run Prolog (inside Codespace):
+swipl
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.x.x)
+?- 
+?- halt.
+?- [halt].
+
+
+
+
